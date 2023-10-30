@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Hello, Skeleton</title>
+  <meta name="description" content="Primeira vez usando a Skeleton Framework">
+  <meta name="author" content="Gabriel Lascosck">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container identificacao">
+    <form method="post" action="mailto: gabriellascosck0909@gmail.com">
+      <div class="row">
+        <div clsas="six columns">
+          <h1>Pesquisa de Satisfação</h1>
+          <h4>Conte-nos o que achou de nosso estabelecimento!</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="six columns">
+          <label for="nome1">Primeiro Nome</label>
+          <input class="u-full-width" type="text" placeholder="Primeiro Nome" id="nome1" value="Anônimo" readonly>
+        </div>
+        <div class="six columns">
+          <label for="nome2">Último Nome</label>
+          <input class="u-full-width" type="text" placeholder="Último Nome" id="nome2" disabled>
+        </div>
+      </div>
+      <div class="row">
+        <div class="six columns">
+          <label for="idade">Idade</label>
+          <input class="u-full-width" type="number" min="0" placeholder="Idade" id="idade" required>
+        </div>
+        <div class="six columns">
+          <label for="email">Email</label>
+          <input class="u-full-width" type="email" placeholder="Email" id="email">
+        </div>
+      </div>
+      </div>
+      <div class="container avaliacao">
+        <div class="row">
+          <div class="six columns">
+            <label for="Tabela">Avaliação</label>
+            <table id="Tabela">
+              <tr>
+                <th class="u-full-width"></th>
+                <th>Incrível</th>
+                <th>Bom</th>
+                <th>OK</th>
+                <th>Ruim</th>
+              </tr>
+              <tr>
+                <td class="u-full-width td-center">Qualidade da comida</td>
+                <td><input type="radio" value="none" name="Comida"/></td>
+                <td><input type="radio" value="none" name="Comida"/></td>
+                <td><input type="radio" value="none" name="Comida"/></td>
+                <td><input type="radio" value="none" name="Comida"/></td>
+              </tr>
+              <tr>
+                <td class="u-full-width td-center">Qualidade do Atendimento</td>
+                <td><input type="radio" value="none" name="Atendimento"/></td>
+                <td><input type="radio" value="none" name="Atendimento"/></td>
+                <td><input type="radio" value="none" name="Atendimento"/></td>
+                <td><input type="radio" value="none" name="Atendimento"/></td>
+              </tr>
+              <tr>
+                <td class="u-full-width td-center">Tempo de espera</td>
+                <td><input type="radio" value="none" name="Espera"/></td>
+                <td><input type="radio" value="none" name="Espera"/></td>
+                <td><input type="radio" value="none" name="Espera"/></td>
+                <td><input type="radio" value="none" name="Espera"/></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="container finalização">
+        <div class="row">
+          <div class="six columns">
+            <input class="button-primary u-full-width" type="submit" value="Enviar resposta">
+          </div>
+          <div class="six columns">
+            <input class="button-secondary u-full-width" type="reset" value="Começar de novo">
+          </div>
+      </div>
+    </form>
+  </div>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
